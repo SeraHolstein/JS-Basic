@@ -23,4 +23,17 @@
     </div>
 </body>
 
-</html>
+</html> 
+ function update() {
+     if (keksegesamt > 0) {
+         keksgesamt--
+         document.getElementById('keksanzahl').innerText = keksegesamt
+         document.getElementById('keksspeicher').innerText = keksspeicher
+
+ function einkeks() {
+            if (keksspeicher > 0) {
+                keksegesamt++
+                document.getElementById('keksanzahl').innerText = keksegesamt
+
+                keksspeicher--
+                document.getElementById('keksspeicher').innerText = keksspeicher
